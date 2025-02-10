@@ -1,0 +1,73 @@
+body, html {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.btn-container {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.ingresar-btn, .integrantes-btn, .eliminar-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.ingresar-btn {
+    background-color: #007bff;
+}
+
+.integrantes-btn {
+    background-color: #007bff;
+}
+
+.eliminar-btn {
+    background-color: #dc3545;
+}
+
+.ingresar-btn:hover, .integrantes-btn:hover, .eliminar-btn:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
